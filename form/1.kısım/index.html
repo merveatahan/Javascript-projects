@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM</title>
+    <style>
+      body {
+        background: #eee;
+      }
+      form {
+        margin: auto;
+        background: white;
+        padding: 20px;
+        max-width: 250px;
+      }
+      input {
+        display: block;
+        padding: 5px;
+        margin: 10px auto;
+      }
+      .success {
+        border: 1px solid green;
+      }
+      .error {
+        border: 1px solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="display: flex; justify-content: center; align-items: center">
+      <h1 id="can">DOM</h1>
+    </div>
+    <form class="singupForm">
+      <input
+        type="text"
+        name="username"
+        id="username"
+        placeholder="Kullanıcı Adınızı Giriniz"
+      />
+      <div class="message"></div>
+      <input type="submit" value="Kaydet" />
+    </form>
+
+    <script src="merve.js"></script>
+  </body>
+</html>
